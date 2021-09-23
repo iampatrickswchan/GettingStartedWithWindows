@@ -1,0 +1,23 @@
+install choco
+
+1) download the script to local drive
+wget https://community.chocolatey.org/install.ps1 -o ./install.ps1
+
+2) install chocolatey by powershell script
+powershell ./install.ps1
+
+3) restart the powershell
+
+4) install required softwares
+choco install googlechrome
+choco install docker-desktop -y
+choco install git
+choco install vscode -y
+choco install visualstudio2019professional -y
+choco install anaconda3
+choco install nodejs
+
+reference 1
+https://chocolatey.org/install
+
+
